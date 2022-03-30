@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linkedinpage.css">
+    <title>Linkedin Clone Index</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="left">
+            <!-- linkedin logo -->
+            <div class="logo">
+                <i class="bi bi-linkedin"></i>
+            </div>
+            <!-- search bar -->
+            <div class="search">
+                <i class="bi bi-search"> <input class="field" type="text" name="search" placeholder="Search"></i>
+            </div>
+        </div>
+        <div class="right">
+            <!-- Home link -->
+            <div class="home">
+                <a href="#"><i class="bi bi-house-door-fill"></i></a>
+                <p>Home</p>
+            </div>
+            <!-- Networks link -->
+            <div class="networks">
+                <a href="#"><i class="bi bi-people-fill"></i></a>
+                <p>Networks</p>
+            </div>
+            <!-- Jobs link -->
+            <div class="jobs">
+                <a href="#"><i class="bi bi-briefcase-fill"></i></a>
+                <p>Jobs</p>
+            </div>
+            <!-- Messages link -->
+            <div class="messages">
+                <div class="mess">
+                    <a href="#"><i class="bi bi-chat-left-dots-fill"></i></a>
+                    <span class="message_badge">5</span>
+                </div>
+                <p>Messages</p>
+            </div>
+            <!-- Notification link -->
+            <div class="notifications">
+                <div class="mess">
+                    <a href="#"><i class="bi bi-bell-fill"></i></a>
+                    <span class="message_badge">12</span>
+                </div>
+                <p>Notifications</p>
+            </div>
+            <!-- User link -->
+            <div class="account_drop_down">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3011/3011270.png" alt="profile"></a>
+                <p>Me <i class="bi bi-caret-down-fill"></i></p>
+            </div>
+            <!-- Work link -->
+            <div class="work_drop_down">
+                <a href="#"><i class="bi bi-grid-3x3-gap-fill"></i></a>
+                <p>Work <i class="bi bi-caret-down-fill"></i></p>
+            </div>
+            <!-- Additional text on the nav bar -->
+            <div class="extratxt">
+                <p>Get Hired Faster, <br>
+                    Try Premium Free</p>
+            </div>
+        </div>
+    </nav>
+    <!-- Container for the main content -->
+    <div class="container">
+        <!-- Left side content bar -->
+        <div class="left_bar">
+            <!-- Upper section in left bar -->
+            <section class="left_top">
+                <div class="circle_image">
+                </div>
+                <div class="name">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3011/3011270.png" alt="profile"></a>
+                    <h3><a href="#">Sushant Kumar</a></h3>
+                    <p><span class="style4">Creative Writer</span></p>
+                </div>
+                <div class="connect">
+                    <p><span class="style">Connections</span>
+                        <br><span class="style3">Grow your network</span>
+                    </p>
+                    <p><span class="style2">20</span></p>
+                </div>
+                <div class="connect2">
+                    <p><span class="style">Who viewed your profile</span>
+                    </p>
+                    <p><span class="style2">20</span></p>
+                </div>
+                <div class="access">
+                    <p><span class="style">Access exclusive tools & insights</span>
+                        <br><i class="bi bi-square-fill"></i><span class="style3"> Get Hired Faster, Try Premium
+                            Free</span>
+                    </p>
+                </div>
+                <div class="my_items">
+                    <p><i class="bi bi-bookmark-fill"></i><span class="style3"> My Items</span></p>
+                </div>
+            </section>
+            <!-- Bottom section in left bar -->
+            <section class="left_bottom">
+                <div class="recent">
+                    <p>
+                        Recent
+                    </p>
+                    <ul>
+                        <li>#skillacademy</li>
+                        <li>#skillacademy</li>
+                        <li>#skillacademy</li>
+                        <li>#skillacademy</li>
+                    </ul>
+                </div>
+                <div class="groups">
+                    <p>
+                        <a href="#"><span class="style5">Groups</span></a>
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-people-fill"></i> Skill Academy</li>
+                        <li><i class="bi bi-people-fill"></i> Testbook</li>
+                    </ul>
+                </div>
+                <div class="hastag">
+                    <p>
+                        <a href="#"><span class="style5">Followed Hashtags</span></a>
+                    </p>
+                    <ul>
+                        <li>#Testbook</li>
+                        <li>#Fullstackdevelopment</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Div related to middle content bar -->
+        <div class="middle_bar">
+            <!-- Upper section in middle bar -->
+            <section class="middle_top">
+                <!-- post section -->
+                <div class="post_create">
+                    <!-- Avatar and textarea for post -->
+                    <div class="makepost1">
+                        <div class="avatar">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3011/3011270.png" alt="profile">
+                        </div>
+                        <div class="post_field">
+                            <textarea name="post" id="post" cols="100" rows="1" placeholder="start a post"></textarea>
+                        </div>
+                    </div>
+                    <!-- links related to adding image/video/event/article in post section -->
+                    <div class="makepost2">
+                        <p>
+                            <i class="bi bi-image"></i>
+                            <span class="icontext">Photo</span>
+                        </p>
+                        <p>
+                            <i class="bi bi-play-btn-fill"></i>
+                            <span class="icontext">Video</span>
+                        </p>
+                        <p>
+                            <i class="bi bi-calendar2-date-fill"></i>
+                            <span class="icontext">Event</span>
+                        </p>
+                        <p>
+                            <i class="bi bi-layout-text-window-reverse"></i>
+                            <span class="icontext">Write article</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- central post section in the middle bar -->
+            <section class="middle_centre">
+                <!-- First post -->
+                <div class="post1">
+                    <!-- top header of the post -->
+                    <div class="makepost3">
+                        <div class="leftpost">
+                            <div class="avatar">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Youtube Logo">
+                            </div>
+                            <div class="company_name">
+                                <p>
+                                    <span class="companyhead"><a href="#">YouTube</a></span>
+                                    <span class="companystatus">1,459,687 Followers</span>
+                                    <span class="companystatus">Promoted</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="threedots">
+                            <i class="bi bi-three-dots"></i>
+                        </div>
+                    </div>
+                    <!-- Content of the post -->
+                    <div class="makepost4">
+                        <p>
+                            In India, the creative ecosystem uses YouTube's open platform to convert their passions into
+                            professions and generate revenue, which helps the economy thrive and promote India’s
+                            socio-cultural landscape. According to the 2021 @OxfordEconomics report, this ecosystem has
+                            made a significant contribution to the Indian economy in 2020. These numbers are a testament
+                            of creators’ efforts to inspire their viewers with their content.
+                            Learn how creators are <a href="#" class="hash">#CreatingForIndia</a> and her future with
+                            our first impact report:
+                            <a href="https://yt.be/wi9SY">https://yt.be/wi9SY</a>
+                        </p>
+                        <p>
+                            <img src="https://i.ytimg.com/vi/mxvY4uWNsec/maxresdefault.jpg"
+                                alt="youtube campaign image">
+                        </p>
+                    </div>
+                    <!-- Bottom bar of the post -->
+                    <div class="makepost5">
+                        <!-- post status | Like | Share -->
+                        <div class="poststatus">
+                            <div class="likes">
+                                <!-- Icons related to likes/clap/idea/heart -->
+                                <p class="like_icons">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/889/889221.png"
+                                        alt="Thumbs up Likes">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Heart icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3557/3557535.png"
+                                        alt="Clapping Hand">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/841/841539.png"
+                                        alt="light bulb Idea">
+                                </p>
+                                <p>
+                                    <span class="com"><a href="#">3,520</a></span>
+                                </p>
+                            </div>
+                            <!-- statement related to comments data -->
+                            <div class="comments">
+                                <p>
+                                    <span class="com"><a href="#">62 Comments &bull; 91 Shares</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- bottom bar for like/share/comment/send -->
+                        <div class="media">
+                            <div class="media_icons">
+                                <i class="bi bi-hand-thumbs-up"><a href="$">Like</a></i>
+                                <i class="bi bi-chat-text"><a href="$"> Comment</a></i>
+                                <i class="bi bi-arrow-90deg-right"><a href="$"> Share</a></i>
+                                <i class="bi bi-send-fill"><a href="$">Send</a></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section related to second post in the middle bar -->
+            <section class="middle_bottom">
+                <!-- Second post -->
+                <div class="post1">
+                    <!-- top header of the post -->
+                    <div class="makepost3">
+                        <div class="leftpost">
+                            <div class="avatar">
+                                <img src="wionlogo.jpg" alt="Wion news icon">
+                            </div>
+                            <div class="company_name">
+                                <p>
+                                    <span class="companyhead"><a href="#">WION (World Is One News)</a></span>
+                                    <span class="companystatus">21,885 Followers</span>
+                                    <span class="companystatus">2d &bull; <img class="earthicon"
+                                            src="https://cdn-icons-png.flaticon.com/512/44/44386.png"
+                                            alt="Earth icon for public post"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="threedots">
+                            <i class="bi bi-three-dots"></i>
+                        </div>
+                    </div>
+                    <div class="makepost4">
+                        <p>
+                            <a href="#" class="hash">#GravitasPlus</a> | Ukraine's President Volodymyr Zelensky has
+                            become the most-admired person of the free world.<br>
+                            He is being celebrated as the hero of Ukraine war.
+                            What's Zelensky's story?<br>
+                            Is he really as perfect as the West presents him to be?<br>
+                            <a href="#" class="hash">Palki Sharma</a> tells you.
+                        </p>
+                        <p>
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/Kn2TCq6R8Tw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+
+                            </iframe>
+                        </p>
+                    </div>
+                    <!-- Bottom bar of the post -->
+                    <div class="makepost5">
+                        <!-- post status | Like | Share -->
+                        <div class="poststatus">
+                            <div class="likes">
+                                <!-- Icons related to likes/clap/idea/heart -->
+                                <p class="like_icons">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/889/889221.png"
+                                        alt="Thumbs up Likes">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Heart icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3557/3557535.png"
+                                        alt="Clapping Hand">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/841/841539.png"
+                                        alt="light bulb Idea">
+                                </p>
+                                <p>
+                                    <span class="com"><a href="#">177</a></span>
+                                </p>
+                            </div>
+                            <!-- statement related to comments data -->
+                            <div class="comments">
+                                <p>
+                                    <span class="com"><a href="#">17 Comments &bull; 15 Shares</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- bottom bar for like/share/comment/send -->
+                        <div class="media">
+                            <div class="media_icons">
+                                <i class="bi bi-hand-thumbs-up"><a href="$">Like</a></i>
+                                <i class="bi bi-chat-text"><a href="$"> Comment</a></i>
+                                <i class="bi bi-arrow-90deg-right"><a href="$"> Share</a></i>
+                                <i class="bi bi-send-fill"><a href="$">Send</a></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- right content bar -->
+        <div class="right_bar">
+            <!-- Top section in right content bar related to news headlines -->
+            <section class="right_top">
+                <div class="info">
+                    <p class="titlehead">
+                        <span class="style6">LinkedIn News</span>
+                        <i class="bi bi-info-square-fill"></i>
+                    </p>
+                </div>
+                <!-- news headlines -->
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">US plans more sanctions on Russia</span><br>
+                            <span class="newstime">44m ago &#9679 1,783,595 readers</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">Create your own career luck</span><br>
+                            <span class="newstime">16m ago</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">Common entrance exam for UG course</span><br>
+                            <span class="newstime">22h ago</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">Is crypto talent leaving India?</span><br>
+                            <span class="newstime">1d ago</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">India startup updates</span><br>
+                            <span class="newstime">21h ago</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <!-- link for expanding the div for reading more -->
+                <input type="checkbox" id="collapsable" class="readmore">
+                <label for="collapsable" class="in-readmore">Show more<i class="bi bi-caret-down"></i></label>
+                <div class="more">
+                    <div class="more_in">
+                        <p>
+                        <ul>
+                            <li>
+                                <span class="newshead">The latest in the startup world</span><br>
+                                <span class="newstime">20h ago</span>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="more_in">
+                        <p>
+                        <ul>
+                            <li>
+                                <span class="newshead">Create your own career luck</span><br>
+                                <span class="newstime">2d ago</span>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="more_in">
+                        <p>
+                        <ul>
+                            <li>
+                                <span class="newshead">What Indian consumers are spending on</span><br>
+                                <span class="newstime">7h ago</span>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="more_in">
+                        <p>
+                        <ul>
+                            <li>
+                                <span class="newshead">How IT firms are countering attrition</span><br>
+                                <span class="newstime">10h ago</span>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="more_in">
+                        <p>
+                        <ul>
+                            <li>
+                                <span class="newshead">Biden visits US troops in Poland</span><br>
+                                <span class="newstime">42m ago &#9679 1,559,931 readers</span>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Second section in the right bar related to courses -->
+            <section class="right_middle">
+                <div class="info">
+                    <p class="titlehead">
+                        <span class="style6">Today's most viewed courses</span>
+                        <i class="bi bi-info-square-fill"></i>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">Indian crosses 3,58,974 daily cases</span><br>
+                            <span class="newstime">Top news 9874 - reviews</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="link">
+                    <p>
+                    <ul>
+                        <li>
+                            <span class="newshead">Research analyst courses</span><br>
+                            <span class="newstime">Top Coaching - reviews</span>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+            <!-- Third/bottom section related to right bar related to companies to follow -->
+            <section class="right_bottom">
+                <div class="info">
+                    <p class="titlehead">
+                        <span class="style6">Add to your feed</span>
+                        <i class="bi bi-info-square-fill"></i>
+                    </p>
+                </div>
+                <div class="company">
+                    <div class="logo_left">
+                        <img src="https://www.carlogos.org/logo/Tata-logo-2000-640x550.jpg" alt="tata">
+                    </div>
+                    <div class="info_right">
+                        <h3><a href="#">Tata Group</a></h3>
+                        <p><span class="style7">Company - Conglomerate</span></p>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="logo_left">
+                        <img src="https://cdn-icons-png.flaticon.com/512/888/888835.png" alt="adobe">
+                    </div>
+                    <div class="info_right">
+                        <h3><a href="#">Adobe Inc.</a></h3>
+                        <p><span class="style7">Company - Software</span></p>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="logo_left">
+                        <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="google">
+                    </div>
+                    <div class="info_right">
+                        <h3><a href="#">Google LLC</a></h3>
+                        <p><span class="style7">Company - Information Technology</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
