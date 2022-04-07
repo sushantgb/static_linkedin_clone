@@ -644,4 +644,12 @@ input[type=checkbox]{
         outline: none;
         width: 18em;
     }
+    .makepost2{
+        display: flex;
+        flex-direction: row;
+        padding: 0.1em 1em;
+        justify-content:center;
+        align-content: center;
+        font-size: 1em;
+    }
 }
