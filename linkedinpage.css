@@ -646,13 +646,6 @@ input[type=checkbox]{
     }
     .makepost2 i{
         font-style: normal;
-        font-size: 1.5em;
-    }
-    .makepost2{
-        display: flex;
-        flex-direction: row;
-        padding: 0.1em 1em;
-        justify-content:center;
-        align-content: center;
+        font-size: 1em;
     }
 }
