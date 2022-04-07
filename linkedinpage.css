@@ -653,4 +653,8 @@ input[type=checkbox]{
         font-size: 1em;
         width:80%;
     }
+    .makepost2 i{
+        font-style: normal;
+        font-size: 1em;
+    }
 }
