@@ -650,8 +650,8 @@ input[type=checkbox]{
         padding: 0.1em 1em;
         justify-content:center;
         align-content: center;
-        font-size: 1em;
-        width:80%;
+        font-size: 0.5em;
+        width:60%;
     }
     .makepost2 i{
         font-style: normal;
