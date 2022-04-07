@@ -648,4 +648,12 @@ input[type=checkbox]{
         font-style: normal;
         font-size: 0.2em;
     }
+    .makepost2{
+        display: flex;
+        flex-direction: row;
+        padding: 0.1em 1em;
+        justify-content:center;
+        align-content: center;
+        font-size: 0.2em;
+    }
 }
