@@ -651,5 +651,6 @@ input[type=checkbox]{
         justify-content:center;
         align-content: center;
         font-size: 1em;
+        width:80%;
     }
 }
